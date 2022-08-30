@@ -13,7 +13,7 @@ Search for addresses by zip code using the [ViaCEP](https://viacep.com.br) REST 
 Via Composer
 
 ``` bash
-$ composer require flyingluscas/viacep-php
+$ composer require euregistro/viacep-php
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ $ composer require flyingluscas/viacep-php
 Find address by zip code.
 
 ```php
-use FlyingLuscas\ViaCEP\ViaCEP;
+use Euregistro\ViaCEP\ViaCEP;
 
 $viacep = new ViaCEP;
 
@@ -65,7 +65,7 @@ Should return something like this:
 Search for addresses using state, city and a street name.
 
 ```php
-use FlyingLuscas\ViaCEP\ViaCEP;
+use Euregistro\ViaCEP\ViaCEP;
 
 $viacep = new ViaCEP;
 
