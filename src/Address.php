@@ -1,6 +1,6 @@
 <?php
 
-namespace FlyingLuscas\ViaCEP;
+namespace Euregistro\ViaCEP;
 
 class Address
 {
